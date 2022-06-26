@@ -21,23 +21,25 @@
 </head>
 
 <body>
-    <header>
-        <div class="container c-site-nav">
+    <header class="header">
+        <div class="header__container container">
 
-            <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
-            <nav class="contact-links">
-                <ul class="site-nav">
-                    <li class="item"><a href="./index.html" class="site-nav-link current">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
-                    <li class="item"><a href="" class="site-nav-link">Контакты</a></li>
+            <a href="./index.html" class="logo">
+            <span class="logo-color">Web</span>Studio</a>
+
+            <nav class="contact-links nav">
+                <ul class=" nav__site">
+                    <li class="nav__item"><a href="./index.html" class="nav__link  current">Студия</a></li>
+                    <li class="nav__item"><a href="./portfolio.html" class=" nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="" class=" nav__link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="header-contact-link">
-                <li class="item"><a href="mailto:info@devstudio.com" class="h-e-link"><svg class="header-icon"
+            <ul class="contact">
+                <li class="contact__item"><a href="mailto:info@devstudio.com" class="contact__e"><svg class="header-icon"
                             width="16" height="12">
                             <use href="./images/symbol-defs-1.svg#icon-envelope-1"></use>
                         </svg>info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="h-ph-link"><svg class="header-icon" width="16"
+                <li class="contact__item"><a href="tel:+380961111111" class="contact__tel"><svg class="header-icon" width="16"
                             height="12">
                             <use href="./images/symbol-defs-1.svg#icon-smartphone-1"></use>
                         </svg>+38 096 111 11 11</a></li>
@@ -45,89 +47,88 @@
         </div>
     </header>
     <main>
-        <section class="hero hero-container">
+        <section class="hero hero__container">
 
-            <h1 class="hero-titel">Эффективные решения
+            <h1 class="hero__titel">Эффективные решения
                 <br>
                 для вашего бизнеса
             </h1>
-            <button data-modal-open type="button" class="hero-botton">Заказать услугу</button>
+            <button data-modal-open type="button" class="hero__btn">Заказать услугу</button>
 
         </section>
 
-        <section class="s-benefit">
+        <section class="benefit">
             <h2 hidden>Наши приемущества</h2>
-            <div class="container benefit-block">
-                <ul class="benefit-list">
-                    <li class="item">
+            <div class="container benefit__container">
+                <ul class="benefit__list">
+                    <li class="benefit__item">
                         <div class="icons">
-                            <svg class="benefit-icon">
+                            <svg class="benefit-icon benefit__icon">
                                 <use href="./images/symbol-defs-2.svg#icon-antenna1"></use>
                             </svg>
                         </div>
-                        <h3 class="title">Внимание к деталям</h3>
-                        <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        <h3 class="benefit__title">Внимание к деталям</h3>
+                        <p class=" benefit__text">Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="benefit__item">
                         <div class="icons">
                             <svg class="benefit-icon">
                                 <use href="./images/symbol-defs-2.svg#icon-clock1"></use>
                             </svg>
                         </div>
-                        <h3 class="title">Пунктуальность</h3>
-                        <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        <h3 class="benefit__title">Пунктуальность</h3>
+                        <p class="benefit__text">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                     </li>
-                    <li class="item">
+                    <li class="benefit__item">
                         <div class="icons">
                             <svg class="benefit-icon">
                                 <use href="./images/symbol-defs-2.svg#icon-diagram1"></use>
                             </svg>
                         </div>
-                        <h3 class="title">Планирование</h3>
-                        <p class="text">Равным образом консультация с широким активом в значительной степени
+                        <h3 class="benefit__title">Планирование</h3>
+                        <p class="benefit__text">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li class="item">
+                    <li class="benefit__item">
                         <div class="icons">
                             <svg class="benefit-icon">
                                 <use href="./images/symbol-defs-2.svg#icon-astronaut1"></use>
                             </svg>
                         </div>
-                        <h3 class="title">Современные технологии</h3>
-                        <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="benefit__title">Современные технологии</h3>
+                        <p class="benefit__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class="s-about-our-work">
-            <div class="container about-our-work">
-                <h2 class="work about-us-title">Чем мы занимаемся</h2>
-                <ul class="our-work-list">
-                    <li class="work-item ">
+        <section class="our-work">
+            <div class="container our-work__container">
+                <h2 class="section__title ">Чем мы занимаемся</h2>
+                <ul class="our-work__list">
+                    <li class=" our-work__item ">
                         <div class="box">
                         <img src="./images/services/comp.jpg" alt="верстка" width="370">
                     </div>
-                   <p class="work-c-text ">Десктопные приложения</p>
-                   
+                   <p class="our-work__text">Десктопные приложения</p>
                     </li>
                     
-                    <li class="work-item ">
+                    <li class="our-work__item">
                         <div class="box">
                         <img src="./images/services/phone.jpg" alt="дизайн" width="370">
                     </div>
                     
-                        <p class="work-c-text ">Мобильные приложения</p>
+                        <p class="our-work__text">Мобильные приложения</p>
                     
                     </li>
-                    <li class="work-item">
+                    <li class="our-work__item">
                     <div class="box">
                         <img src="./images/services/tablet.jpg" alt="оформление" width="370">
                     </div>
                         
-                        <p class="work-c-text ">Дизайнерские решения</p>
+                        <p class="our-work__text">Дизайнерские решения</p>
                     
                     </li>
 
@@ -137,15 +138,15 @@
 
         <section class="about-us">
 
-            <h2 class="about-us-title">Наша команда</h2>
-            <div class="container about-us-block">
-                <ul class="about-us-list">
-                    <li class="list">
+            <h2 class="section__title">Наша команда</h2>
+            <div class="container about-us__container">
+                <ul class="about-us__list">
+                    <li class=" about-us__item">
                         <article class="w-card">
                             <div class="w-card-thumb">
                                 <img src="./images/team/product_designer.jpg" alt="product designer" width="270">
                             </div>
-                            <div class="name-position">
+                            <div class="name-position position">
                                 <h3 class="name">Игорь Демьяненко</h3>
                                 <p class="text">Product Designer</p>
                                 <ul class="workers-soc-list list">
@@ -179,7 +180,7 @@
                         </article>
                     </li>
 
-                    <li class="list">
+                    <li class="about-us__item">
                         <article class="w-card">
                             <div class="w-card-thumb">
                                 <img src="./images/team/frontend_developer.jpg" alt="frontend developer" width="270">
@@ -218,7 +219,7 @@
                         </article>
                     </li>
 
-                    <li class="list">
+                    <li class="about-us__item">
                         <article class="w-card">
                             <div class="w-card-thumb">
                                 <img src="./images/team/marketing.jpg" alt="marketing" width="270">
@@ -257,7 +258,7 @@
                         </article>
                     </li>
 
-                    <li class="list">
+                    <li class="about-us__item">
                         <article class="w-card">
                             <div class="w-card-thumb">
                                 <img src="./images/team/ui_designer.jpg" alt="ui_designer" width="270">
