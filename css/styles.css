@@ -1,11 +1,11 @@
-*,
+/**,
 *::before,
 *::after {
     box-sizing: border-box
-}
+}*/
 
 /* Переменные */
-
+/*
 :root {
     --text-color: #757575;
     --bnt-color-hover: #F5F4FA;
@@ -20,16 +20,17 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     --timing-duration: 250ms;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 /*Основные: цвет и текст */
-body {
+/*body {
     font-family: 'Roboto', sans-serif;
     color: var(--btn-color-text);
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
+*/
+/*
 .container {
     width: 1200px;
     margin-left: auto;
@@ -37,7 +38,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     
-}
+}*/
 
 /*Утилиты*/
 /*
@@ -265,10 +266,10 @@ transition: color var(--timing-duration) var(--timing-function);
 
 */
 /* Кнопки-Главная */
-button {
+/*button {
     cursor: pointer;
     border: none;
-}
+}*/
 /*
 .hero {
     padding-bottom: 200px;
@@ -326,7 +327,7 @@ button {
 
 
 /*Страница "Главная"*/
-.benefit {
+/*.benefit {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -389,6 +390,7 @@ button {
 */
 
 /*Чем мы занимаемся*/
+/*
 .our-work__container {
     padding-bottom: 94px;
 }
@@ -438,8 +440,9 @@ button {
         color: #ffffff;
         background: rgba(47, 48, 58, 0.8);
     }
-
+*/
 /*Команда*/
+/*
 .about-us {
     display: block;
     margin: 0 auto;
@@ -480,7 +483,7 @@ button {
 .name-position {
     padding-top: 30px;
     padding-bottom: 30px;
-    /*outline: 1px solid red;*/
+  
 }
 
 .name-position .name {
@@ -512,7 +515,7 @@ button {
 .workers-soc-list {
     display: flex;
     justify-content: center;
-    /*padding-left: 32px;*/
+   
 
 }
 
@@ -547,8 +550,9 @@ transition: background-color var(--timing-duration) var(--timing-function);
 .workers-soc-link:hover .workers-soc-icon,
 .workers-soc-link:focus .workers-soc-icon {
     fill: var(--default-white);
-}
-
+}*/
+ /*Клиенты*/
+/*
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -608,18 +612,19 @@ transition: background-color var(--timing-duration) var(--timing-function);
 .clients__link:hover ,
 .clients__link:focus  {
     color: var(--btn-color-hb);
-}
+}*/
 
 
 /*Страница "Портфолио"*/
+/*
 .set {
     border-top: 1px solid #ECECEC;
     padding-top: 94px;
     padding-bottom: 94px;
-}
+}*/
 
 /* Кнопки-Портфолио */
-
+/*
 .card-nav-list {
     display: flex;
     justify-content: center;
@@ -668,11 +673,11 @@ box-shadow var(--timing-duration) var(--timing-function);
     background-color: var(--btn-color-hb);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-}
+}*/
 
 /*Карточки*/
 
-
+/*
 .set-list {
     display: flex;
     flex-wrap: wrap;
@@ -687,7 +692,7 @@ box-shadow var(--timing-duration) var(--timing-function);
 }
 
 
-
+/*
 .set-list .item:nth-child(3n) {
     margin-right: 0px;
     padding-right: 0px;
@@ -708,9 +713,9 @@ box-shadow var(--timing-duration) var(--timing-function);
     line-height: 2.25;
     color: var(--text-color);
 }
-
+*/
 /* CARD */
-
+/*
 .card {
     width: 370px;
     height: 404px;
@@ -720,7 +725,6 @@ box-shadow var(--timing-duration) var(--timing-function);
     cursor: pointer;
     transition: box-shadow var(--timing-duration) var(--timing-function),
     border-radius var(--timing-duration) var(--timing-function);
-   
 }
 
 .card-content {
@@ -764,9 +768,9 @@ box-shadow var(--timing-duration) var(--timing-function);
 .set-list .item:hover .card-top-text {
     transform: translateY(0%)
 }
-
+*/
 /*Модальное окно*/
-
+/*
 .backdrop {
     position: fixed;
     top: 0;
@@ -842,9 +846,9 @@ box-shadow var(--timing-duration) var(--timing-function);
     letter-spacing: 0.03em;
     color: #212121;
     }
-
+*/
     /*Форма*/
-
+/*
     .modal-field {
     margin-bottom: 10px;
     }  
@@ -914,9 +918,9 @@ box-shadow var(--timing-duration) var(--timing-function);
 .modal-text:hover {
     border: 1px solid #2196F3;
 }
-
+*/
 /*Чекбокс*/
-
+/*
 .covenant{
     display: flex;
     align-items: center;
@@ -1002,8 +1006,9 @@ box-shadow var(--timing-duration) var(--timing-function);
         background: #188CE8;
     }
 
-
+*/
 /*Подвал*/
+/*
 .logo-adress {
     margin-right: 70px;
 }
@@ -1213,4 +1218,4 @@ margin-right: 93px;
     background-color: #ffffff;
     color: var(--btn-color-hb);
     fill:  var(--btn-color-hb);
-}
+}*/
