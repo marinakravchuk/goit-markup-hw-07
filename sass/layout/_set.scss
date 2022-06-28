@@ -4,13 +4,13 @@
     padding-bottom: 94px;
 }
 
-.set-list {
+.set__list {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
 }
 
-.set-list>.item {
+.set__list>.set__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -19,12 +19,12 @@
 
 
 
-.set-list .item:nth-child(3n) {
+.set__item:nth-child(3n) {
     margin-right: 0px;
     padding-right: 0px;
 }
 
-.set-list .title {
+.card-content__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -33,7 +33,7 @@
     /* outline: 1px solid red;*/
 }
 
-.set-list .text {
+.card-content__text {
     font-style: normal;
     font-size: 16px;
     line-height: 2.25;

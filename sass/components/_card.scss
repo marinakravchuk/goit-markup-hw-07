@@ -48,6 +48,6 @@
         transition: transform 250ms var(--timing-function) ;
 
 }
-.set-list .item:hover .card-top-text {
+.set__item:hover .card-top-text {
     transform: translateY(0%)
 }

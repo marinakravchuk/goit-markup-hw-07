@@ -41,7 +41,7 @@
   }
 
 
-.modal-bnt-close {
+.modal-bnt_close {
     display: flex;
     position: absolute;
     top: 8px;
@@ -62,7 +62,7 @@
     fill: var(--btn-color-hb);
 }
 
-.modal-title {
+.modal_title {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -76,7 +76,7 @@
 
     /*Форма*/
 
-    .modal-field {
+    .modal_field {
     margin-bottom: 10px;
     }  
 
@@ -115,7 +115,7 @@
     fill: #2196F3;
     }
 
-    .modal-label {
+    .modal_label {
     position: relative;
     display: block;
     font-size: 12px;
