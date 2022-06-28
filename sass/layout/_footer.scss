@@ -71,7 +71,7 @@ transition: color var(--timing-duration) var(--timing-function);
     transition: color var(--timing-duration) var(--timing-function);
 }
 
-.title-soc {
+.footer-soc_titel {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -85,22 +85,22 @@ margin-right: 93px;
 }
 
 
-.footer-soc-list {
+.footer-soc_list {
     display: flex;
     margin-bottom: 30px;
 }
 
-.footer-soc-item {
+.footer-soc_item {
     width: 44px;
     height: 44px;
     margin-right: 10px;
 }
 
-.footer-soc-icon {
+.footer-soc_icon {
     fill: #FFFFFF;
 }
 
-.footer-soc-link {
+.footer-soc_link {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -115,13 +115,13 @@ margin-right: 93px;
     
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.footer-soc_link:hover,
+.footer-soc_link:focus {
     background-color: var(--btn-color-hb);
 }
 
-.footer-soc-link:hover .footer-soc-icon,
-.footer-soc-link:focus .footer-soc-icon {
+.footer-soc_link:hover .footer-soc_icon,
+.footer-soc_link:focus .footer-soc_icon {
     fill: var(--default-white);
 }
 
@@ -129,7 +129,7 @@ margin-right: 93px;
   margin-right: auto;
 }
 
-.footer-title {
+.footer-form_title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -141,13 +141,13 @@ margin-right: 93px;
   color: #FFFFFF;
 }
 
-.footer-mail-form {
+.footer-form_mail {
     display: flex;
     border: none;
 }
 
 
-.footer-input {
+.footer-form_input {
     width: 358px;
     height: 50px;
 
@@ -165,12 +165,12 @@ margin-right: 93px;
 }
 
 
-.footer-input:focus,
-.footer-input:hover {
+.footer-form_input:focus,
+.footer-form_input:hover {
     border-color: var(--btn-color-hb);
     }
 
-.footer-btn {
+.footer-form_btn {
     position: relative;
     display: flex;
     align-items: center;
@@ -185,13 +185,13 @@ margin-right: 93px;
     line-height: calc(30 / 16);
     padding-left: 29px;
     color: #ffffff;
-    fill: currentColor;;
+    fill: currentColor;
     transition: fill var(--timing-duration) var(--timing-function);
     transition: background-color var(--timing-duration) var(--timing-function);
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.footer-form_btn:hover,
+.footer-form_btn:focus {
     background-color: #ffffff;
     color: var(--btn-color-hb);
 }

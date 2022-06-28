@@ -706,7 +706,7 @@ box-shadow var(--timing-duration) var(--timing-function);
     align-items: center;
     /* outline: 1px solid red;*/
 }
-
+/*
 .set-list .text {
     font-style: normal;
     font-size: 16px;
