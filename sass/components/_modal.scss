@@ -33,12 +33,13 @@
     transform: translate(-50%, -50% );
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .backdrop.is-hidden & {
+        transform: translate(-50%, -50%) scale(0.75);
+        opacity: 0;
+      }
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.75);
-    opacity: 0;
-  }
+
 
 
 .modal-bnt_close {
@@ -55,12 +56,13 @@
     align-items: center;
     justify-content: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-bnt-close:hover,
-.modal-bnt-close:focus {
+    &:hover,
+    &:focus {
     fill: var(--btn-color-hb);
 }
+}
+
+
 
 .modal_title {
     text-align: center;
@@ -101,12 +103,13 @@
     outline: none;
     transition: border-color 250ms var(--timing-function), 
     fill 250ms var(--timing-function) ;
-    }
-
-    .modal-input:focus,
-    .modal-input:hover {
+    &:focus,
+    &:hover {
     border-color: #2196F3;
-    }
+    }    
+}
+
+    
 
 
     .modal-input:focus + .modal-icon,
@@ -139,12 +142,13 @@
     resize: none;
     outline: none;
     transition: border 250ms var(--transition-cubic);
-}
-
-.modal-text:focus,
-.modal-text:hover {
+    &:focus,
+&:hover {
     border: 1px solid #2196F3;
 }
+}
+
+
 
 /*Чекбокс*/
 
@@ -165,16 +169,18 @@
 
     display: flex;
     align-items: center;
+
+    &::before {
+        content: "";
+        width: 16px;
+        height: 15px;
+        border: 2px solid  #212121;
+        border-radius: 3px;
+        margin-right: 8px;
+    } 
     }
 
-.covenant-title::before {
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid  #212121;
-    border-radius: 3px;
-    margin-right: 8px;
-} 
+
 
 .checkbox-policy:checked +.covenant-title::before {
     background-color: #2196F3;
@@ -225,10 +231,12 @@
         letter-spacing: 0.06em;
         color: #FFFFFF;
         transition: background var(--timing-duration) var(--timing-function);
+    
+        &:hover,
+        &:focus {
+            background: #188CE8;
+        }  
     }
     
 
-    .modal-bnt-send:hover,
-    .modal-bnt-send:focus {
-        background: #188CE8;
-    }
+ 

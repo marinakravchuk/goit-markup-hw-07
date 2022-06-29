@@ -688,7 +688,7 @@ box-shadow var(--timing-duration) var(--timing-function);
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
-    /*outline: 1px solid red;*/ 
+    
 }
 
 
@@ -704,7 +704,7 @@ box-shadow var(--timing-duration) var(--timing-function);
     line-height: 2;
     letter-spacing: 0.06em;
     align-items: center;
-    /* outline: 1px solid red;*/
+
 }
 /*
 .set-list .text {

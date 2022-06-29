@@ -27,13 +27,14 @@
 .clients__item {
     margin-right: 30px;
     color: #AFB1B8;
-    transition: color var(--timing-duration) var(--timing-function)
+    transition: color var(--timing-duration) var(--timing-function);
+    &:hover,
+    &:focus {
+        color: var(--btn-color-hb);
+    }  
 }
 
-.clients__item:hover,
-.clients__item:focus {
-    color: var(--btn-color-hb);
-}
+
 
 .clients__link {
     display: inline-flex;
@@ -47,14 +48,16 @@
     fill: currentColor;
     transition: color var(--timing-duration) var(--timing-function), 
     border-color var(--timing-duration) var(--timing-function);
+    &:hover,
+    &:focus {
+        border-color: var(--btn-color-hb);
+    };
+    
+    &:hover ,
+    &:focus  {
+        color: var(--btn-color-hb);
+    }
+
 }
 
-.clients__link:hover,
-.clients__link:focus {
-    border-color: var(--btn-color-hb);
-}
 
-.clients__link:hover ,
-.clients__link:focus  {
-    color: var(--btn-color-hb);
-}

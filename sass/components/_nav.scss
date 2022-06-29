@@ -41,12 +41,13 @@ transition: color var(--timing-duration) var(--timing-function),
 background-color var(--timing-duration) var(--timing-function),
 box-shadow var(--timing-duration) var(--timing-function);
 
-}
-
-.site-bnt:hover,
-.site-bnt:focus {
+&:hover,
+&:focus {
     color: var(--bnt-color-hover);
     background-color: var(--btn-color-hb);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+}
+

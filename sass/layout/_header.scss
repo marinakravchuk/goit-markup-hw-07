@@ -39,13 +39,14 @@
     font-weight: 500;
     font-size: var(--font-size);
     line-height: 1.14;
-}
-
-
-.nav__site:hover,
-.nav__site:focus {
+    &:hover,
+&:focus {
     color: var(--btn-color-hb);
 }
+}
+
+
+
 
 
 
@@ -115,14 +116,18 @@
     color: var(--text-color);
 
 transition: color var(--timing-duration) var(--timing-function);
-}
 
-.contact .contact__e:hover,
-.contact .contact__e:focus,
-.contact .contact__tel:hover,
-.contact .contact__tel:focus {
+.contact &:hover,
+.contact &:focus,
+.contact &:hover,
+.contact &:focus {
     color: var(--btn-color-hb);
 }
+
+
+}
+
+
 
 .nav {
     /*display: block;*/
@@ -146,9 +151,11 @@ transition: color var(--timing-duration) var(--timing-function);
 
     transition: color var(--timing-duration) var(--timing-function);
 
+    &:hover,
+    &:focus {
+        color: var(--btn-color-hb);
+    }
+
 }
 
-.nav__link:hover,
-.nav__link:focus {
-    color: var(--btn-color-hb);
-}
+

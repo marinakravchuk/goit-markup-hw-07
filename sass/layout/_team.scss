@@ -94,11 +94,12 @@
     justify-content: center;
     fill: #AFB1B8;
 transition: background-color var(--timing-duration) var(--timing-function);
-}
 
-.workers-soc__link:hover,
-.workers-soc__link:focus {
+&:hover,
+&:focus {
     background-color: var(--btn-color-hb);
+};
+
 }
 
 .workers-soc__link:hover .workers-soc__icon,
